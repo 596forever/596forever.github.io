@@ -3066,6 +3066,80 @@ footer .footer-separator::before {
     left: 20px;
   }
 }
+:root {
+  --waline-theme-color: #afb42b;
+  --waline-active-color: #b2b72e;
+}
+:root.dark {
+  --waline-white: #000;
+  --waline-bgcolor: #002638;
+  --waline-light-grey: #666;
+  --waline-theme-color: #afb42b;
+  --waline-active-color: #b2b72e;
+  --waline-border-color: #afb42b;
+  --waline-info-bgcolor: #333;
+  --waline-info-color: #ddd;
+  --waline-bq-color: #bbb;
+  --waline-color: #eee;
+  --waline-bgcolor-light: #002638;
+  --waline-disable-bgcolor: #333;
+}
+/* 评论 */
+/* ---------------------------------------------------------------- */
+/* 填写项标题 */
+.el-input-group__append,
+.el-input-group__prepend {
+  background-color: var(--twikoo-sceondbg) !important;
+  color: var(--twikoo-fontcolor) !important;
+  border: 0px solid var(--primary) !important;
+}
+/* 输入框 */
+.el-input__inner {
+  background: var(--twikoo-post-blockquote-bg) !important;
+  border: 0px solid var(--primary) !important;
+  color: var(--twikoo-fontcolor) !important;
+}
+/* 评论输入框 */
+.el-textarea__inner {
+  background: var(--twikoo-post-blockquote-bg) !important;
+  border: 0px solid var(--primary) !important;
+  color: var(--twikoo-fontcolor) !important;
+}
+/* 加载时背景颜色 */
+.el-loading-mask {
+  background-color: var(--twikoo-background) !important;
+}
+/* 评论博主标签圆角 */
+.tk-tag-green {
+  border-radius: 12px !important;
+  border: 0px solid #e1f3d8 !important;
+}
+/* 预览按钮 */
+.el-button {
+  background: var(--twikoo-card-btn-bg) !important;
+  border: 0px solid var(--primary) !important;
+  color: var(--twikoo-fontcolor) !important;
+}
+.el-button:hover {
+  background: var(--primary) !important;
+  color: var(--twikoo-white) !important;
+}
+/* 发送按钮正常状态 */
+.el-button--primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: var(--twikoo-white) !important;
+}
+/* 发送按钮禁用状态 */
+.el-button--primary.is-disabled,
+.el-button--primary.is-disabled:active,
+.el-button--primary.is-disabled:focus,
+.el-button--primary.is-disabled:hover {
+  opacity: 0.4;
+}
+.tk-submit {
+  margin-top: none;
+}
 .trm-read-mode .trm-app-frame {
   border: none;
   border-radius: 0;
