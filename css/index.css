@@ -1336,7 +1336,7 @@ blockquote:after {
   background-color: var(--theme-bg-color, #fcfcfe);
 }
 .trm-main-card-frame .trm-main-card.trm-active-el {
-  border-radius: 0;
+  border-radius: 0 0 10px 10px;
 }
 .trm-main-card-frame .trm-main-card:before {
   content: '';
