@@ -14,8 +14,8 @@
   --primary-30: rgba(175, 180, 43, 0.3);
   --primary-weak: #c0ca33;
   --primary-weak-50: rgba(192, 202, 51, 0.5);
-  --body-color: #7B7B7D;
-  --body-color-5: rgba(123, 123, 125, 0.05);
+  --body-color: #00283A;
+  --body-color-5: rgba(0, 40, 58, 0.05);
   --body-bg-color: #00151f;
   --theme-color: #00283a;
   --theme-bg-color: #fcfcfe;
@@ -55,8 +55,8 @@
   --primary-30: rgba(175, 180, 43, 0.3);
   --primary-weak: #c0ca33;
   --primary-weak-50: rgba(192, 202, 51, 0.5);
-  --body-color: #cccdcfb3;
-  --body-color-5: rgba(204, 205, 207, 0.05);
+  --body-color: #dedee0;
+  --body-color-5: rgba(222, 222, 224, 0.05);
   --body-bg-color: #00151f;
   --theme-color: #dedee0;
   --theme-bg-color: #00283a;
@@ -2485,7 +2485,7 @@ footer .footer-separator::before {
   opacity: 1 !important;
 }
 .trm-publication p {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .trm-publication p + p {
   margin-top: -14px;
